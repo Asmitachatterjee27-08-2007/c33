@@ -97,6 +97,7 @@ function keyPressed(){
         slingshot.attach(bird.body);
         gameState="onSling";
         Matter.Body.setPosition(bird.body,{x:200,y:50});
+        bird.trajectory=[];
     }
 }
 
